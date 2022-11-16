@@ -171,12 +171,12 @@ a:hover {
 /* List Styling */
 
 ul {
-    margin: 1rem, 0, 1rem, 0;
+    margin: 1rem 0 1rem 0;
     list-style-type: square;
 }
 
 ol {
-    margin: 1rem, 0, 1rem, 0;
+    margin: 1rem 0 1rem 0;
     list-style-type: lower-latin;
 }
 
@@ -196,12 +196,14 @@ nav a {
     text-decoration: none;
     display: inline-block;
     width: 100%;
+    line-height: 3rem;
     text-align: center;
-    font-size: 1.125;
+    font-size: 1.125rem;
     margin-bottom: 1.5rem;
     border: solid;
-    border-color:#33658A;
+    border-color: #33658A;
     border-width: .0625rem;
+    text-align: center;
 }
 
 nav a:focus,
