@@ -193,10 +193,10 @@ nav {
 }
 
 nav a {
+    line-height: 3rem;
     text-decoration: none;
     display: inline-block;
     width: 100%;
-    line-height: 3rem;
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
