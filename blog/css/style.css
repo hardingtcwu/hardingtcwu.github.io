@@ -1,0 +1,199 @@
+/* Font Import */
+
+@font-face {
+    
+    font-family:Ultra;
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    
+    font-family:Roboto;
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+
+/* General Setup */
+
+html {
+    
+    font-size:16px;
+    font-family:Roboto, sans-serif;
+    color:#333;
+}
+
+body {
+   padding:0;
+    margin:0 auto;
+    font-size:1rem;
+    max-width:104rem;
+    min-width:64rem;
+}
+
+main {
+    
+    margin:0 auto;
+    padding-bottom:.25rem;
+    width:90%;
+}
+
+ul {
+    list-style-type:none;
+}
+
+img {
+    width:100%;
+    display:block;
+    max-width:25rem;
+}
+
+a {
+    
+    text-decoration:none;
+}
+
+
+
+/* Header */
+
+header {
+    
+}
+
+h1 {
+   
+}
+
+.highlight {
+   
+}
+
+
+/* Navigation Menu */
+
+nav {
+   
+}
+
+nav a {
+  
+}
+
+nav :nth-child(even):focus,
+nav :nth-child(even):hover,
+nav :nth-child(even):active {
+    
+}
+
+nav :nth-child(odd):focus,
+nav :nth-child(odd):hover,
+nav :nth-child(odd):active {
+   
+}
+
+
+
+/* Section */
+
+.main-section {
+    
+}
+
+article {
+    
+}
+
+.article-image {
+
+}
+
+.article-image + p {
+    
+}
+
+/* Subsection */
+
+.subsection {
+    
+}
+
+.subsection figure {
+    
+}
+
+.subsection figcaption {
+    
+}
+
+.subsection img {
+    
+}
+
+
+
+/* Typographic Styles */
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+time {
+    
+}
+
+p {
+    
+}
+
+
+
+/* Sidebar */
+
+aside {
+    
+}
+
+aside :nth-child(1) {
+    
+}
+
+aside p {
+    
+}
+
+.expand {
+    
+}
+
+button {
+    
+}
+
+button a {
+    
+}
+
+
+
+/* Footer */
+
+footer {
+    
+}
+
+footer :nth-child(2) {
+
+}
+
+footer a {
+    
+}
