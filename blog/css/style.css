@@ -62,38 +62,66 @@ a {
 /* Header */
 
 header {
-    
+    margin: 0 auto;
+    padding: .5rem 5%;
+    text-align: center;
 }
 
 h1 {
-   
+   font-family: Roboto, serif;
+   font-size: 3.75rem;
+   margin: 2rem 0;
+   letter-spacing: .125rem;
+   text-shadow: .125rem /* more here */
 }
 
 .highlight {
-   
+    font-family: Ultra;
+    font-weight: normal;
+    background-color: #83344D;
+    color: #EED;
+    padding: 0 1rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: .187rem .187rem .187rem #333;
 }
 
 
 /* Navigation Menu */
 
 nav {
-   
+    margin:4rem 0 4rem 0;
+    padding: 0 5%;
+    border-top: .0625rem solid #333;
+    border-bottom: .0625rem solid #333;
 }
 
 nav a {
-  
+    display: inline-block;
+    font-size: 1.75rem;
+    /* more here */
 }
 
 nav :nth-child(even):focus,
 nav :nth-child(even):hover,
 nav :nth-child(even):active {
-    
+    text-decoration: line-through;
+    transform: rotate(4deg);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
 }
 
 nav :nth-child(odd):focus,
 nav :nth-child(odd):hover,
 nav :nth-child(odd):active {
-   
+    text-decoration: line-through;
+    transform: rotate(-4deg);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
 }
 
 
@@ -105,7 +133,7 @@ nav :nth-child(odd):active {
 }
 
 article {
-    
+    width: 75%;
 }
 
 .article-image {
