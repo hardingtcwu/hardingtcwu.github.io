@@ -148,7 +148,12 @@ article {
 /* Subsection */
 
 .subsection {
-    
+    margin-top:4rem;
+    margin-bottom:2rem;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(5rem, 1fr));
+    grid-column-gap:1%;
 }
 
 .subsection figure {
