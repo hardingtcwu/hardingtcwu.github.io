@@ -205,15 +205,19 @@ aside {
 }
 
 aside :nth-child(1) {
-    
+    margin-top:0;
 }
 
 aside p {
-    
+    font-size:.75rem;
+    padding-bottom:2rem;
+    border-bottom: .0625rem solid #333;
 }
 
 .expand {
-    
+    font-size:.25rem;
+    display:block;
+    padding-top:.5rem;
 }
 
 button {
