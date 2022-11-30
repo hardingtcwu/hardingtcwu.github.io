@@ -129,7 +129,7 @@ nav :nth-child(odd):active {
 /* Section */
 
 .main-section {
-    
+    display:flex;
 }
 
 article {
@@ -137,11 +137,12 @@ article {
 }
 
 .article-image {
-    
+    float:left;
+    margin: 0 1rem 0 0;
 }
 
 .article-image + p {
-    
+    margin-top:0;
 }
 
 /* Subsection */
@@ -187,7 +188,10 @@ p {
 /* Sidebar */
 
 aside {
-    
+    margin-left:3%;
+    padding-left:3%;
+    width:19%;
+    border-left: .0625rem solid #333;
 }
 
 aside :nth-child(1) {
