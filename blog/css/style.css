@@ -175,6 +175,14 @@ article {
 
 
 /* Typographic Styles */
+/* properties to use:
+
+font-size (h2 h3 time)
+font-style
+margin-top
+padding
+line-height(just p)
+*/
 
 h2 {
     
