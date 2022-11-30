@@ -241,13 +241,18 @@ button a {
 /* Footer */
 
 footer {
-    
+    margin:6rem auto .5rem auto;
+    width:90%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap:1%;
 }
 
 footer :nth-child(2) {
-
+    text-align:right;
 }
 
 footer a {
-    
+    font-family: ubuntu, serif;
+    color:#6F7D77;
 }
