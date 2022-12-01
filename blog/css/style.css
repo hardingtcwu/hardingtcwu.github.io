@@ -1,7 +1,7 @@
 /* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
 
         /* 
-        
+
         Spacing 
 
             - padding (shorthand and/or specific properties like padding-bottom, etc.)
@@ -121,7 +121,7 @@ h3 {
 }
 
 time {
-
+    font-style:italic;
 
 }
 
