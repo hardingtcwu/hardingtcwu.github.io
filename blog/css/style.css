@@ -81,7 +81,7 @@ body {
      min-width:64rem;
  }
 
- main {
+main {
     
     margin:0 auto;
     padding-bottom:.25rem;
@@ -111,23 +111,23 @@ a {
 */
 
 h2 {
-
+    font-size:1.75rem;
 
 }
 
 h3 {
-
+    font-size:1.2rem;
 
 }
 
 time {
     font-style:italic;
-
+    font-size:.75rem;
 }
 
 P {
-
-
+    line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* Header */
